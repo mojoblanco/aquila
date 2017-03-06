@@ -1,1 +1,2 @@
-bower_components
+assets/lib
+.DS_Store
