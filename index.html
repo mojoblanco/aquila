@@ -10,13 +10,26 @@
     <link rel="stylesheet" href="assets/lib/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.css">
 
+    <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
 
     <div id="wrapper">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
+
+        <header>
+            <div class="container">
+                <div class="col-xs-12">
+                    <div class="text-center">
+                        <h1>Aquila</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav id="navigation" class="navbar navbar-default">
+            <div class="container">
 
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,13 +38,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
-                        Aquila
-                    </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
                         <li><a href="#">Link</a></li>
                     </ul>
                 </div>
@@ -39,6 +52,49 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
+
+        <div id="content" class="container">
+            <div class="col-md-8">
+                <section id="main-content">
+
+                    <article class="blog-entry">
+                        <h2 class="blog-title">Blog Title</h2>
+
+                        <div class="blog-meta">
+                            <span>
+                                <i class="fa fa-user"></i>
+                                <a href="#" class="author-name">John Doe</a>
+                            </span>
+
+                            <span>
+                                <i class="fa fa-calendar-o"></i> 
+                                <a href="#" class="post-time">Thursday, Mar 09, 2017</a>
+                            </span>
+
+                            <span>
+                                <i class="fa fa-tags"></i> 
+                                <a href="#" class="post-category">Music</a>
+                                <a href="#" class="post-category">Video</a>
+                            </span>
+                        </div>
+
+                        <div class="blog-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, temporibus, aut. Incidunt, vel. Incidunt repellat numquam modi suscipit, nisi quaerat maxime soluta quos delectus vitae qui accusantium autem, illo magni.
+                        </div>
+
+
+                    </article>
+
+                </section>
+            </div>
+
+            <div class="col-md-4">
+                <section id="sidebar">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellendus temporibus, incidunt adipisci provident excepturi aliquid illo autem quam vel non dolorum placeat ipsam. Voluptate repellendus suscipit officia itaque accusantium.
+                </section>
+            </div>
+
+        </div>
     </div>
 
     <script src="assets/lib/jquery/dist/jquery.js"></script>
